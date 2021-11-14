@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background: url(https://i.gifer.com/Ir9.gif);
+    background-size: cover;
+}
+.header{
+width: 100%;
+height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+}
+.header_inner{
+    height: 800px;
+    width: 100%;
+}
+.top_1{
+    height: 13%;
+    width: 100%;
+}
+.text{
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(rgb(112, 91, 91),rgb(8, 22, 221));
+}
+.text h1{
+    color: white;
+    font-size: 42px;
+}
+.top_1 > ul{
+    position: relative;
+    display: flex;
+}
+.top_1 ul .frame{
+    /* border: 1px solid white; */
+    text-align: center;
+    line-height: 60px;
+    width: 300px;
+    background:linear-gradient(red,black);
+}
+.top_1 ul .frame1{
+    /* border: 1px solid white; */
+    text-align: center;
+    line-height: 60px;
+    width: 300px;
+    background:linear-gradient(red,black);
+}
+
+
+
+.top_1 ul .bst, .top_1 ul .frame {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+.top_1 ul .bst, .top_1 ul .frame1 {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+
+.top_1 ul ul{
+    position: absolute;
+    display: none;
+    z-index: 99;
+}
+.top_1 ul li:hover > ul{
+    display: block;
+    background-color: darkcyan;
+}
+.top_1 li:hover{
+    border: 1px solid white;
+}
+.tr li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.spd{
+    height: 100px;
+background:url(https://i.gifer.com/5Rm9.gif) center;
+background-size: cover;
+width: 300px;
+transition: all .6s;
+}
+.strange{
+background: url(https://i.gifer.com/OIgS.gif) center;
+background-size: cover;
+height: 100px;
+transition: all .6s;
+}
+.widow{
+background: url(https://i.gifer.com/Nfc5.gif) center;
+background-size: cover;
+height: 100px;
+transition: all .6s;
+}
+.venom{
+background: url(https://i.gifer.com/PUY7.gif) center;
+background-size: cover;
+height: 100px;
+transition: all .6s;
+}
+.wolv{
+background: url(https://i.gifer.com/XYNy.gif) center;
+background-size: cover;
+height: 100px;
+transition: all .6s;
+}
+.iron{
+background: url(https://i.gifer.com/8izx.gif) ;
+background-size: cover;
+height: 100px;
+transition: all .6s;
+}
+.captain{
+background: url(https://i.gifer.com/3bW8.gif);
+background-size: cover;
+height: 100px;
+transition: all .6s;
+}
+.tor{
+background: url(https://i.gifer.com/3T4w.gif) center;
+background-size: cover;
+height: 100px;
+transition: all .6s;
+}
+.loki{
+background: url(https://i.gifer.com/fxjV.gif) center;
+background-size: cover;
+height: 100px;
+transition: all .6s;
+}
+.hulk{
+background: url(https://i.gifer.com/7ELI.gif);
+background-size: cover;
+height: 100px;
+transition: all .6s;
+}
+.ji{
+ background: url(https://c.tenor.com/2erwCzwm9c4AAAAC/shang-chi-simu-liu.gif);  
+ background-size: cover;
+ height: 100px; 
+ transition: all .6s;
+}
+.mn .bst{
+    width: 300px;
+    background:linear-gradient(red,black);
+}
+.fr{
+    text-transform: none;
+    font-size: 10px;
+    background:linear-gradient(red,black);
+    width: 600px;
+    position: absolute;
+    top: -60px;
+    right: -899px;
+}
+.fr1{
+    text-transform: none;
+    font-size: 10px;
+    background:linear-gradient(red,black);
+    width: 600px;
+    position: absolute;
+    top: -60px;
+    right: -898px; 
+}
+.flm li{
+    height: 315px;
+    width: 560px;
+    position: relative;
+}
+.flm li iframe{
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.flm li a{
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    top: 30px;
+    z-index: 30;
+    position: relative;
+}
+.spid{
+    position: relative;
+    background: url(https://www.youtube.com/watch?v=rt-2cxAiPJk&ab_channel=SonyPicturesEntertainment);
+}
+.gams iframe{
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+.gams li{
+    height: 355px;
+    position: relative;
+    width: 560px;
+    /* background:linear-gradient(red,black); */
+}
+.gams li h4{
+    background:linear-gradient(red,black);
+}
+.top_2{
+    width: 100%;
+    /* height: 100%; */
+    padding: 200px 0px;
+    background: url(https://www.rucomics.info/wp-content/uploads/2017/12/marvel-films-2020.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.top_2 h1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive; 
+    /* background: linear-gradient( 45deg, black,rgb(255, 255, 255)); */
+    /* display: table; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    color: #444444;
+/* background: #FFFFFF; */
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    
+    
+}
+.top_2 p{
+    font-size: 40px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px 0 #000000, 4px 4px 0 #000000, 2px 2px 2px rgba(206,68,68,0);
+}
+.top_2 .knopka{
+    margin-top: 39px;
+}
+.knopka a{
+    border: 1px solid white;
+    padding: 13px 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    transition: all .7s;
+}
+.knopka a:hover{
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    -webkit-box-shadow: 13px 12px 39px 15px #FFFFFF; 
+box-shadow: 13px 12px 39px 15px #FFFFFF;
+background-color: rosybrown;
+}
+.bob{
+    position: absolute;
+    bottom: 230px;
+    left: 250px;
+    transform: rotate(10deg);
+}
+.bob1{
+    position: absolute;
+    bottom: 230px;
+    right: 250px;
+    transform: rotate(-10deg);
+}
+.bob img{
+    width: 300px;
+}
+.bob1 img{
+    width: 300px;
+}
+.top_1 .spd:hover a{
+color: skyblue;
+font-size: 24px;
+}
+.spd a{
+    transition: all .9s;
+}
+.strange a{
+    transition: all .9s;
+}
+.top_1 .strange:hover a{
+    color: skyblue;
+font-size: 24px;
+}
+.widow a{
+    transition: all .9s;
+}
+.top_1 .widow:hover a{
+    color: skyblue;
+    font-size: 24px;
+}
+.venom a{
+    transition: all .9s;
+}
+.top_1 .venom:hover a{
+    color:skyblue;
+    font-size:24px
+}
+.top_1 .iron:hover a{
+    color:skyblue;
+    font-size:24px
+}
+.top_1 .captain:hover a{
+    color:skyblue;
+    font-size:24px
+}
+.top_1 .tor:hover a{
+    color:skyblue;
+    font-size:24px
+}
+.top_1 .loki:hover a{
+    color:skyblue;
+    font-size:24px
+}
+.top_1 .hulk:hover a{
+    color:skyblue;
+    font-size:24px
+}
+.top_1 .ji:hover a{
+    color:skyblue;
+    font-size:24px
+}
+.ji a{
+    transition: all .9s;
+}
+.hulk a{
+    transition: all .9s;
+}
+.tor a{
+    transition: all .9s;
+}
+.loki a{
+    transition: all .9s;
+}
+.iron a{
+    transition: all .9s;
+}
+.captain a{
+    transition: all .9s;
+}
+.top_1 .wolv:hover a{
+    color:skyblue;
+    font-size:24px
+}
+.wolv a{
+    transition: all .9s;
+}
+.mn li{
+    transition: all .6s;
+}
+.mn .bst:hover{
+    color: rgb(241, 166, 2);
+}
+.top_1 .frame{
+    transition: all .6s;
+}
+.top_1 .frame:hover{
+    color: rgb(241, 166, 2);
+}
+.top_1 .frame .gams li{
+    color: white;
+    transition: all .6s;
+}
+.top_1 .frame .gams li:hover{
+    color: rgb(241, 166, 2);
+}
+@media screen and (max-width: 1160px) {
+    .bob,.bob1{
+        display: none;
+    }
+    
+}
+
